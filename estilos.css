@@ -1,0 +1,62 @@
+body{
+    background-color: #feaaaa;
+    text-align: center;
+}
+.caballo{
+    width: 100px;
+    display: block;
+    position: relative;
+}
+.caballo1{
+    width: 100px;
+    display: block;
+    position: relative;
+}
+#Pista{
+    display: none;
+    width: 1200px;
+    background-image: url(caballos/suelo.jpg);
+    background-size: cover;
+    
+    /*display: block;*/
+}
+#audio{
+    display: none;
+}
+#audio1{
+    display: none;
+}
+
+#Datoscaballos{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-size: 20px;
+}
+#inicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+p{
+    color: #ce2020;
+    font-size: 30px;
+}
+#G1{
+    
+    width: 500px;
+}
+#G2{
+    
+    width: 500px; 
+}
+#winner{
+    align-self: center;
+    display: none;
+}
+#winner1{
+    align-self: center;
+    display: none;
+}
+.titulo{
+    color: rgba(275,225,220,.7);
+    font-size: 100px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Carrera de caballos</title>
+</head>
+<body>
+    <div id="titulo">
+        <h1>Bienvenidos a esta la gran carera de caballos de primero C</h1>
+        <h3>Hecho por: Daniel Rivas</h3>
+        <h3>Desarrollo de software &numsp; Primero C
+        </h3>
+    </div>
+    <div id="Datoscaballos">
+        <label for="nombreCab">Dale un nombre al primer caballo: </label>
+        <input type="text" name="nombreCab" id="cab">
+        <br><br>
+        <label for="nombreCab">Dale un nombre al Segundo caballo caballo: </label>
+        <input type="text" name="nombreCab1" id="cab1">
+        <hr>
+        <input type="button" value="Iniciar la carrera" id="inicio">
+    </div>
+    <div id="Pista">
+        <img src="caballos/cab.png" alt="caballo numero 1" class="caballo" id="CaB1">
+        <p class="caballo" id="CB1"></p>
+        <br><br>
+        <img src="caballos/cab1.png" alt="caballo numero 2" class="caballo1" id="CaB2">
+        <p class="caballo1" id="CB2"></p>
+        <input type="button" id="mover"value="que se muevan">
+    </div>
+    <div id="winner">
+        <h1 class="titulo">GANADOR</h1>
+        <img src="caballos/cab.png" alt="caballo numero 1" class="caballo" id="G1">
+        <p class="caballo" id="GANADOR1"></p>
+    </div>
+    <div id="winner1">
+        <h1 class="titulo">GANADOR</h1>
+        <img src="caballos/cab1.png" alt="caballo numero 2" class="caballo1" id="G2">
+        <p class="caballo1" id="GANADOR2"></p>
+    </div>
+    <audio id="audio" src="sonidos/galope.mp3" controls><p>Tu navegador no acepta el audio a reproducir.</p></audio>
+    <audio id="audio1" src="sonidos/ganar.mp3" controls><p>Tu navegador no acepta el audio a reproducir.</p></audio>
+</body>
+<script src="corran.js"></script>
+</html>
